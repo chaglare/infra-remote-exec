@@ -8,6 +8,8 @@ variable "instance_type" {}
 variable "user" {}
 variable "domain" {}
 variable "record" {}
+variable "zone_id" {}
+
 
 
 
