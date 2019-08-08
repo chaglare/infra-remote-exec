@@ -1,7 +1,7 @@
 terraform {
     backend "s3" {
-        region = us-east-1"
-        bucker = "remote-exec-caglar"
-        key = 
+        region  =  "us-east-1"
+        bucket = "remote-exec-caglar"
+        key = "remote.state"
     }
 }
