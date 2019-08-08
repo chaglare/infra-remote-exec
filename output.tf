@@ -3,7 +3,7 @@ output "VPC" {
 }
 
 output "pub_sec_group" {
-  value = "${aws_security_group.public.id}"
+  value = "${aws_security_group.jenkins.name}"
 }
 
 output "key_name" {
