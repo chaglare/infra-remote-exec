@@ -1,5 +1,5 @@
 output "key_name" {
-  value = "${aws_key_pair.developer_key.id}"
+  value = "http://${aws_key_pair.developer_key.id}"
 }
 
 output "Link" {
